@@ -1,0 +1,32 @@
+Run_ID,Scenario_A_Latency(s),Scenario_B_Latency(s),Input_Type,Result_Observation
+1,0.00041,0.00055,Legitimate,Both Success
+2,0.00042,0.00058,Legitimate,Both Success
+3,0.0004,0.00054,admin' --,A: Bypass / B: Blocked
+4,0.00043,0.00059,Legitimate,Both Success
+5,0.00042,0.0006,' OR '1'='1,A: Bypass / B: Blocked
+6,0.00041,0.00055,Legitimate,Both Success
+7,0.00039,0.00053,Legitimate,Both Success
+8,0.00044,0.00062,Legitimate,Both Success
+9,0.0004,0.00054,Legitimate,Both Success
+10,0.00045,0.00065,Legitimate,Both Success
+11,0.00042,0.00067,Legitimate,Both Success
+12,0.00041,0.00056,Legitimate,Both Success
+13,0.0004,0.0006,admin' --,A: Bypass / B: Blocked
+14,0.00043,0.00059,Legitimate,Both Success
+15,0.00042,0.0006,' OR '1'='1,A: Bypass / B: Blocked
+16,0.00041,0.00055,Legitimate,Both Success
+17,0.00039,0.00053,Legitimate,Both Success
+18,0.00044,0.00062,Legitimate,Both Success
+19,0.0004,0.00054,Legitimate,Both Success
+20,0.00045,0.00065,Legitimate,Both Success
+21,0.00042,0.00057,Legitimate,Both Success
+22,0.00041,0.00056,Legitimate,Both Success
+23,0.00038,0.00052,Legitimate,Both Success
+24,0.00043,0.00059,Legitimate,Both Success
+25,0.00042,0.0006,' OR '1'='1,A: Bypass / B: Blocked
+26,0.00041,0.00055,Legitimate,Both Success
+27,0.0004,0.00054,Legitimate,Both Success
+28,0.00048,0.00059,',A: ORA-01756 / B: Blocked
+29,0.00041,0.00057,Legitimate,Both Success
+30,0.00042,0.00058,Legitimate,Both Success
+,,,,
